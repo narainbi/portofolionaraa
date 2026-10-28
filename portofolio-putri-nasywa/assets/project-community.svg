@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="commBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052e16"/>
+      <stop offset="50%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="20" fill="url(#commBg)"/>
+
+  <!-- Glowing lights -->
+  <circle cx="100" cy="100" r="140" fill="#10b981" opacity="0.18" filter="blur(40px)"/>
+  <circle cx="500" cy="280" r="120" fill="#06b6d4" opacity="0.15" filter="blur(40px)"/>
+
+  <!-- Main Card -->
+  <g transform="translate(60, 40)">
+    <rect width="480" height="300" rx="16" fill="rgba(15, 23, 42, 0.88)" stroke="rgba(16, 185, 129, 0.35)" stroke-width="1.5"/>
+
+    <!-- Header bar -->
+    <rect width="480" height="42" rx="16" fill="rgba(30, 41, 59, 0.9)"/>
+    <circle cx="25" cy="21" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="21" r="5" fill="#f59e0b"/>
+    <circle cx="59" cy="21" r="5" fill="#10b981"/>
+    <text x="85" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Community Service & Social Impact • Binus University</text>
+
+    <!-- Cards Grid inside -->
+    <g transform="translate(25, 60)">
+      <!-- Box 1: Cisadane -->
+      <rect width="205" height="100" rx="10" fill="rgba(30, 41, 59, 0.6)" stroke="rgba(16, 185, 129, 0.3)"/>
+      <circle cx="25" cy="30" r="12" fill="rgba(16, 185, 129, 0.2)"/>
+      <path d="M 20 30 Q 25 22 30 30 T 40 30" stroke="#34d399" stroke-width="2" fill="none"/>
+      <text x="45" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Sungai Cisadane (2024)</text>
+      <text x="20" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#94a3b8">Konservasi bantaran sungai</text>
+      <text x="20" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#94a3b8">& restorasi ekologi area Bekasi</text>
+      <rect x="20" y="82" width="70" height="12" rx="3" fill="rgba(16, 185, 129, 0.2)"/>
+      <text x="55" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" fill="#6ee7b7" text-anchor="middle">Konservasi Alam</text>
+
+      <!-- Box 2: TK Aisyiyah -->
+      <rect x="225" width="205" height="100" rx="10" fill="rgba(30, 41, 59, 0.6)" stroke="rgba(56, 189, 248, 0.3)"/>
+      <circle cx="250" cy="30" r="12" fill="rgba(56, 189, 248, 0.2)"/>
+      <text x="250" y="35" font-size="13" fill="#38bdf8" text-anchor="middle">🎨</text>
+      <text x="270" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">TK Aisyiyah (2025)</text>
+      <text x="245" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#94a3b8">Revitalisasi & pengecatan alat</text>
+      <text x="245" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#94a3b8">bermain PAUD Bustanul Athfal</text>
+      <rect x="245" y="82" width="75" height="12" rx="3" fill="rgba(56, 189, 248, 0.2)"/>
+      <text x="282" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" fill="#7dd3fc" text-anchor="middle">Edukasi Anak</text>
+
+      <!-- Box 3: Kampanye Global Warming & Karakter -->
+      <rect y="115" width="430" height="105" rx="10" fill="rgba(30, 41, 59, 0.6)" stroke="rgba(245, 158, 11, 0.3)"/>
+      <text x="20" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Kampanye Perubahan Iklim & Pengembangan Karakter (2022 - 2023)</text>
+      <text x="20" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#cbd5e1">• Volunteer Kampanye Global Warming di Cahaya Anak Negeri (2022)</text>
+      <text x="20" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#cbd5e1">• Volunteer Kampanye "Out of Place" & First Year Program B2026 "One Action, One Hope"</text>
+      <rect x="20" y="195" width="130" height="16" rx="4" fill="rgba(245, 158, 11, 0.2)"/>
+      <text x="85" y="206" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#fde047" text-anchor="middle">Character Building Series</text>
+    </g>
+  </g>
+</svg>
+

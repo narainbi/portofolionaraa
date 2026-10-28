@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" rx="16" fill="#FAFAF7"/>
+  <rect x="4" y="4" width="392" height="392" rx="12" fill="none" stroke="#E5E5E0" stroke-width="2"/>
+  <circle cx="200" cy="160" r="70" fill="#7A8F7A" opacity="0.85"/>
+  <circle cx="200" cy="150" r="45" fill="#FAFAF7"/>
+  <path d="M 100 360 C 100 270, 140 250, 200 250 C 260 250, 300 270, 300 360 Z" fill="#7A8F7A" opacity="0.85"/>
+  <text x="200" y="385" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#6B6B6B" text-anchor="middle">Putri Nasywa Aprilia</text>
+</svg>
